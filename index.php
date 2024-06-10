@@ -141,7 +141,7 @@ for ($i = 0; $i < 20; $i++) {
 
 ?>
 <br></br>
-<?php*/
+<?php
 
 function buscar_dia($dia_buscado) {
     $dia_buscado = strtolower($dia_buscado);
@@ -168,4 +168,14 @@ function buscar_dia($dia_buscado) {
 $dia_buscado = "Lunes";
 buscar_dia($dia_buscado);
 ?>
+<br></br>
+<?php*/
+
+function sumar($a, $b) {
+  $resp = $a + $b;
+  echo "El resultado de la suma de $a + $b: $resp";
+}
+sumar(4, 5);
+?>
+<br></br>
 
